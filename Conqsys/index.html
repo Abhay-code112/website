@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Conqsys Website</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script defer src="js/script.js"></script>
+  <link rel="icon" href="images/favicon_io/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">Conqsys</div>
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Banner -->
+  <section class="banner" id="home">
+    <img src="images/banner1.png" alt="Banner" class="banner-img">
+    <div class="banner-text">
+      <h1>Welcome to Conqsys</h1>
+      <p>Empowering Innovation with Embedded Systems & Software Solutions</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about" data-aos="fade-up">
+    <h2>About Us</h2>
+    <p>Conqsys is a cutting-edge company focusing on embedded systems, electronics, and software design. We blend innovation and technology to deliver reliable solutions for automotive and defense industries.</p>
+  </section>
+
+  <!-- Services Section -->
+  <section class="section" id="services" data-aos="fade-up">
+    <h2>Our Services</h2>
+    <div class="cards">
+      <div class="card" data-aos="zoom-in">
+        <img src="images/EmbeddedSystem.png" alt="Embedded Systems" class="card-img">
+        <h3>Embedded Systems</h3>
+        <p>Development of reliable and secure embedded solutions tailored to industry needs.</p>
+      </div>
+      <div class="card" data-aos="zoom-in" data-aos-delay="100">
+        <img src="images/HardwareDesign.png" alt="Hardware Design" class="card-img">
+        <h3>Hardware Design</h3>
+        <p>Design and prototyping of PCBs and circuits for specialized applications.</p>
+      </div>
+      <div class="card" data-aos="zoom-in" data-aos-delay="200">
+        <img src="images/SoftwareDevelopment.png" alt="Software Development" class="card-img">
+        <h3>Software Development</h3>
+        <p>Custom software, tools, and utilities for embedded platforms and automation.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section" id="contact" data-aos="fade-up">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <div class="success-message" id="successBox">
+      ✔️ Thank you! Your message has been submitted.
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Conqsys Technologies Pvt. Ltd.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
